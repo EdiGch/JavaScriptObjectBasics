@@ -8,10 +8,16 @@ var keyObj = {
 
 for(const key in keyObj){
     if(keyObj.hasOwnProperty(key)){
-        console.log(keyObj[key])
+        console.log(keyObj[key]);
     }
 }
-
+console.log("=============================")
+for(const key in keyObj){
+    if(keyObj.hasOwnProperty(key)){
+        console.log(key);
+    }
+}
+console.log("=============================")
 console.log(Object.keys(keyObj));
 console.log(Object.getOwnPropertyNames(keyObj));
 
